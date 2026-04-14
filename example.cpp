@@ -15,7 +15,6 @@ int main() {
     uint64_t resultado[4]; 
     uint32_t semilla = 12345;
 
-    
     RH256(texto, strlen(texto), semilla, resultado);
 
     std::cout << "--- RH256 Hash Output ---" << std::endl;
