@@ -2,6 +2,11 @@
 Ultra-fast 256-bit non-cryptographic hash (7.3 GB/s). Human-AI collaborative design optimized for modern CPU parallelism. SMHasher: 100% PASS.
 ## Authorship & Design Philosophy
 
+## Documentation
+You can find the full technical paper describing the architecture, 
+mathematical foundations, and benchmarks of RH256 here:
+[Download Technical Paper (PDF)](https://github.com/garcialeal/RH256/blob/main/docs/RH256_Technical_Paper.pdf)
+
 **RH256** is the result of a symbiotic engineering process:
 
 * **Principal Architect:** Antonio García Leal, Licensed Mathematician. Provided the mathematical foundations, inter-lane diffusion logic, and the triple-shield finalizer design.
