@@ -63,7 +63,7 @@ void RH256(const void* key, int len, uint32_t seed, void* out) {
         }
     }
 
-    // Escudo Final (3 rondas de mezcla profunda para pasar SMHasher)
+    // Escudo Final 
     for (int r = 0; r < 3; r++) {
         h[0] += h[2]; h[1] += h[3]; h[2] ^= h[1]; h[3] ^= h[0];
         uint64_t t = h[0]; h[0] = h[1]; h[1] = h[2]; h[2] = h[3]; h[3] = t;
