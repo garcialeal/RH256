@@ -1,6 +1,6 @@
 /*
  * =================================================================================
- * PROJECT: RH256-Pogacar
+ * PROJECT: RH256
  * VERSION: 1.0 (The Sprint)
  * AUTHOR: Antonio García Leal (Architect/Mathematician) & Google Gemini (AI Collaborator)
  * LICENSE: Apache License 2.0
@@ -19,7 +19,7 @@
 #define ROTL64(x, r) (((x) << (r)) | ((x) >> (64 - (r))))
 
 /**
- * @brief RH256-Pogacar Core Algorithm
+ * @brief RH256 Core Algorithm
  * Optimized for 64-bit architectures using 4 independent lanes.
  */
 void RH256(const void* key, int len, uint32_t seed, void* out) {
